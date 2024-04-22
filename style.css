@@ -7,6 +7,9 @@
 body{
     background: #001e4d;
 }
+.title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 .app{
     background: #fff;
     width: 90%;
@@ -39,7 +42,7 @@ body{
     padding: 10px;
     margin: 10px 0;
     text-align: left;
-    border-radius: 4px;
+    border-radius: 29px;
     cursor: pointer;
 }
 .btn:hover:not([disabled]){
@@ -69,8 +72,27 @@ body{
     width: 90px;
     border: 0;
     padding: 5px;
-    margin: 20px auto 0;
+    margin: 10px auto 0;
     border-radius: 4px;
+}
+.sub{
+    margin-top: -35px;
+    margin-left: 83%;
+}
+.subscribe{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 700;
+    width: 90px;
+    border: 0;
+    background-color: red;
+    padding: 3px;
+    margin: 7px auto 0;
+    border-radius: 40px;
+}
+.subscribe a{
+    text-decoration: none;
+    color: #fff;
 }
 .correct{
     background: #9aeabc;
@@ -84,25 +106,24 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('image1.jpg'); /* Initial background image */
     background-size: cover;
     animation: backgroundImageAnimation 15s linear infinite;
 }
 @keyframes backgroundImageAnimation {
     0% {
-        background-image: url('image1.jpg');
+        background-image: url('img/BTS.jpg');
     }
     25% {
-        background-image: url('image2.jpg');
+        background-image: url('img/coco.jpg');
     }
     50% {
-        background-image: url('image3.jpg');
+        background-image: url('img/istock.jpg');
     }
     75% {
-        background-image: url('image4.jpg');
+        background-image: url('img/KIDS.jpg');
     }
     100% {
-        background-image: url('image1.jpg');
+        background-image: url('img/lyt.png');
     }
 }
 
@@ -125,8 +146,5 @@ body{
         padding-bottom: 20px;
     }
 
-    .btn,
-    #next-btn {
-        width: auto;
-    }
+    
 }

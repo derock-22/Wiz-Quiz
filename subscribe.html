@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Page</title>
+    <link rel="stylesheet" href="subscribe.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Subscribe Now!</h1>
+        <form id="subscription-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="plan">Choose a Plan:</label>
+            <select id="plan" name="plan">
+                <option value="basic">Basic</option>
+                <option value="premium">Premium</option>
+            </select>
+            <button type="submit" id="subscribe-btn">Subscribe</button>
+        </form>
+        <div id="payment-form" style="display: none;">
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" placeholder="Card Number" required>
+            <label for="expiry">Expiry Date:</label>
+            <input type="text" id="expiry" placeholder="MM/YY" required>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" placeholder="CVV" required>
+            <h1 id="transfer"><a href="transfer">Pay with transfer</a></h1>
+            <button type="submit" id="pay-btn">Pay Now</button>
+            <button type="button" id="save-card-btn">Save Card Details</button>
+        </div>
+        <div id="payment-result"></div>
+    </div>
+
+    <!-- Modal for Alert Message -->
+    <div id="alert-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="alert-message"></p>
+        </div>
+    </div>
+
+    <button type="button" id="view-saved-card-btn">View Saved Card Details</button>
+
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="subscribe.js"></script>
+    <script src="payment.js"></script>
+</body>
+</html>
