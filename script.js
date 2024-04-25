@@ -1,5 +1,167 @@
 const questions = [
     {
+        question: "What is the main purpose of the wedding shoe game?",
+        answers: [
+            { text: "To determine who will pay the wedding bills", correct: false },
+            { text: "To predict how many children the couple will have", correct: false },
+            { text: "To see who knows the couple best", correct: true },
+            { text: "To determine who will wear the pants in the relationship", correct: false },
+        ]
+    },
+    {
+        question: "What type shoes are typically used in the wedding shoe game?",
+        answers: [
+            { text: "High heels", correct: false },
+            { text: "Flip flops", correct: false },
+            { text: "Sneakers", correct: false },
+            { text: "The bride and grooms own shoes", correct: true },
+        ]
+    },
+    {
+        question: "Who usually participate in the wedding shoe game?",
+        answers: [
+            { text: "The wedding party", correct: false },
+            { text: "The bride and groom only", correct: true },
+            { text: "The bride, groom, and their parents", correct: false },
+            { text: "All the wedding guests", correct: false },
+        ]
+    },
+    {
+        question: "How many shoes are typically used in the wedding shoe game?",
+        answers: [
+            { text: "2", correct: true },
+            { text: "4", correct: false },
+            { text: "6", correct: false },
+            { text: "8", correct: false },
+        ]
+    },
+    {
+        question: "What is the typical format of the wedding shoe game?",
+        answers: [
+            { text: "The DJ or MC", correct: true },
+            { text: "The bride's father", correct: false },
+            { text: "The groom's best man", correct: false },
+            { text: "The wedding planner", correct: false },
+        ]
+    },
+    {
+        question: "What is the prize for winning the wedding shoe game?",
+        answers: [
+            { text: "A free Honeymoon", correct: false },
+            { text: "A giftcard", correct: false },
+            { text: "Bragging rights", correct: true },
+            { text: "A special dance with the bride or groom", correct: false },
+        ]
+    },
+    {
+        question: "How long does the wedding shoe game typically last?",
+        answers: [
+            { text: "5 minutes", correct: false },
+            { text: "10 minutes", correct: false },
+            { text: "15 minutes", correct: true },
+            { text: "30 minutes", correct: false },
+        ]
+    },
+    {
+        question: "What is the tone of the wedding shoe game?",
+        answers: [
+            { text: "Serious and formal", correct: false },
+            { text: "Funny and lighthearted", correct: true },
+            { text: "Romantic and sentimental", correct: false },
+            { text: "Competitive and cutthroat", correct: false },
+        ]
+    },
+    {
+        question: "When is the wedding shoe game typically played?",
+        answers: [
+            { text: "During the ceremony", correct: false },
+            { text: "During the reception", correct: true },
+            { text: "During the rehearsal dinner", correct: false },
+            { text: "During the post-wedding brunch", correct: false },
+        ]
+    },
+    {
+        question: "Who usually prepares the questions for the wedding shoe game?",
+        answers: [
+            { text: "The bride and groom", correct: true },
+            { text: "The wedding planner", correct: false },
+            { text: "The DJ or MC", correct: false },
+            { text: "The wedding party", correct: false },
+        ]
+    },
+    {
+        question: "What type of questions are typically asked in the wedding shoe game?",
+        answers: [
+            { text: "Trivia questions about the couple's relationship", correct: true },
+            { text: "Questions about the couple's interests and hobbies", correct: false },
+            { text: "Questions about the couple's future plans", correct: false },
+            { text: "Questions about the couple's families", correct: false },
+        ]
+    },
+    {
+        question: "How do the bride and groom answer the questions in the wedding shoe game?",
+        answers: [
+            { text: "By writing down their answers", correct: false },
+            { text: "By shouting out their answers", correct: false },
+            { text: "By holding up one of their shoes", correct: true },
+            { text: "By giving a thumbs up or thumbs down", correct: false },
+        ]
+    },
+    {
+        question: "What is the purpose of the shoes in the wedding shoe game?",
+        answers: [
+            { text: "To symbolize the couple's commitment to each other", correct: false },
+            { text: "To represent the couple's different personalities", correct: false },
+            { text: "To serve as a prop for the game", correct: true },
+            { text: "To be a prize winner", correct: false },
+        ]
+    },
+    {
+        question: "How many questions are typically asked in the wedding shoe game?",
+        answers: [
+            { text: "5-10", correct: false },
+            { text: "10-15", correct: true },
+            { text: "15-20", correct: false },
+            { text: "20-25", correct: false },
+        ]
+    },
+    {
+        question: "What is the atmosphere like during the wedding shoe game?",
+        answers: [
+            { text: "Formal and serious", correct: false },
+            { text: "Fun and playful", correct: true },
+            { text: "Romantic and sentimental", correct: false },
+            { text: "Competitive and tense", correct: false },
+        ]
+    },
+    {
+        question: "Who usually keeps score in the wedding shoe game?",
+        answers: [
+            { text: "The DJ or MC", correct: true },
+            { text: "The wedding planner", correct: false },
+            { text: "The bride and groom", correct: false },
+            { text: "The wedding party", correct: false },
+        ]
+    },
+    {
+        question: "What happens if a bride or groom answers a question differently?",
+        answers: [
+            { text: "They gain a point", correct: false },
+            { text: "They have to do a fun or penalty task", correct: true },
+            { text: "They loose a point", correct: false},
+            { text: "The game is paused while they discuss their answer", correct: false },
+        ]
+    },
+    // {
+    //     question: "?",
+    //     answers: [
+    //         { text: "", correct: false },
+    //         { text: "", correct: false },
+    //         { text: "", correct: true },
+    //         { text: "", correct: false },
+    //     ]
+    // },
+    {
         question: "Which is the largest animal in the world?",
         answers: [
             { text: "Shark", correct: false },

@@ -34,9 +34,10 @@ body{
     font-weight: 600;
 }
 .btn{
-    background: #fff;
-    color: #222;
-    font-weight: 500;
+    background: #001e4d;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
     width: 100%;
     border: 1px solid #222;
     padding: 10px;
@@ -114,16 +115,19 @@ body{
         background-image: url('img/BTS.jpg');
     }
     25% {
-        background-image: url('img/coco.jpg');
+        background-image: url('img/lyt.png');
     }
     50% {
-        background-image: url('img/istock.jpg');
+        background-image: url('img/coco.jpg');
+    }
+    65%{
+        background-image: url('img/Zak.jpg'); 
     }
     75% {
         background-image: url('img/KIDS.jpg');
     }
     100% {
-        background-image: url('img/lyt.png');
+        background-image: url('img/istock.jpg');
     }
 }
 
@@ -145,6 +149,9 @@ body{
         font-size: 20px;
         padding-bottom: 20px;
     }
-
+    .sub{
+        margin-top: -35px;
+        margin-left: 65%;
+    }
     
 }
